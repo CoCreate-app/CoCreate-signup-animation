@@ -1,0 +1,172 @@
+
+/* Bars */
+.pizza .icon {
+  display: block;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  pointer-events: none;
+}
+.pizza .icon:nth-child(1) {
+  background-color: #D60270;
+  z-index: 2;
+  animation: pizza-topanimation 3s ease-in-out 0s infinite;
+}
+.pizza .icon:nth-child(2) {
+  background-color: #9B4F96;
+  z-index: 1;
+  animation: pizza-middleanimation 3s ease-in-out 0s infinite;
+}
+.pizza .icon:nth-child(3) {
+  background-color: #0038A8;
+  animation: pizza-bottomanimation 3s ease-in-out 0s infinite;
+}
+@keyframes pizza-topanimation {
+  0% { width: 21em; height: 4em; top: 0; left: 0; border-radius: .25em; box-shadow: 0; }
+  36.6667% { width: 21em; height: 4em; top: 0; left: 0; border-radius: .25em; box-shadow: 0; }
+  50% { width: 3em; height: 3em; top: 10em; left: 9em; border-radius: .375em; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  86.6667% { width: 3em; height: 3em; top: 10em; left: 9em; border-radius: .375em; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  100% { width: 21em; height: 4em; top: 0; left: 0; border-radius: .25em; box-shadow: 0; }
+}
+@keyframes pizza-middleanimation {
+  0% { height: 4em; width: 17em; margin-top: 1em; margin-bottom: 1em; border-radius: .25em; box-shadow: 0; }
+  36.6667% { height: 4em; width: 17em; margin-top: 1em; margin-bottom: 1em; border-radius: .25em; box-shadow: 0; }
+  50% { height: 12em; width: 23.3333em; margin-top: -3em; margin-bottom: 0; border-radius: .25em .25em 0 0; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  86.6667% { height: 12em; width: 23.3333em; margin-top: -3em; margin-bottom: 0; border-radius: .25em .25em 0 0; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  100% { height: 4em; width: 17em; margin-top: 1em; margin-bottom: 1em; border-radius: .25em; box-shadow: 0; }
+}
+@keyframes pizza-bottomanimation {
+  0% { width: 13em; height: 4em; border-radius: .25em; box-shadow: 0; }
+  36.6667% { width: 13em; height: 4em; border-radius: .25em; box-shadow: 0; }
+  50% { width: 23.3333em; height: 2em; border-radius: 0 0 .25em .25em; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  86.6667% { width: 23.3333em; height: 2em; border-radius: 0 0 .25em .25em; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  100% { width: 13em; height: 4em; border-radius: .25em; box-shadow: 0; }
+}
+
+/* Elements */
+
+/*.pizza span {*/
+/*  display: block;*/
+/*  position: absolute;*/
+/*  margin: auto;*/
+/*  background-color: white;*/
+/*  border-radius: .25em;*/
+/*  pointer-events: none;*/
+/*}*/
+
+/* Traffics */
+.pizza .traffic {
+  width: 1em;
+  height: 1em;
+  top: .5em;
+  border-radius: 50%;
+  transform-origin: left center;
+  animation: zoominout 3s ease-in-out 0s infinite;
+}
+.pizza .traffic:nth-child(1) {
+  left: .5em;
+}
+.pizza .traffic:nth-child(2) {
+  left: 2em;
+}
+.pizza .traffic:nth-child(3) {
+  left: 3.5em;
+}
+
+/* Title */
+.pizza .title {
+  width: 8em;
+  height: 1em;
+  top: .5em;
+  left: 0;
+  right: 0;
+  animation: expand 3s ease-in-out 0s infinite;
+}
+
+/* Heading */
+.pizza .heading {
+  width: 12em;
+  height: 1.5em;
+  top: 2.5em;
+  left: 2em;
+  transform-origin: left top;
+  animation: expand 3s ease-in-out 0s infinite;
+}
+
+/* Text lines */
+.pizza .txtline {
+  height: 1em;
+  left: 4em;
+  transform-origin: left top;
+  animation: expand 3s ease-in-out 0s infinite;
+}
+.pizza .txtline:nth-child(6) {
+  width: 6em;
+  top: 5em;
+}
+.pizza .txtline:nth-child(7) {
+  width: 4em;
+  top: 6.5em;
+}
+.pizza .txtline:nth-child(8) {
+  width: 8em;
+  top: 8em;
+}
+
+/* Image */
+.pizza .image {
+  width: 6em;
+  height: 4.5em;
+  top: 3.5em;
+  right: 2em;
+  transform-origin: right top;
+  animation: zoominout 3s ease-in-out 0s infinite;
+}
+
+/* Tabs */
+.pizza .tab {
+  height: 1em;
+  top: 0;
+  bottom: 0;
+  transform-origin: left center;
+  animation: expand 3s ease-in-out 0s infinite;
+}
+.pizza .tab:nth-child(1) {
+  width: 2em;
+  left: .5em;
+}
+.pizza .tab:nth-child(2) {
+  width: 4em;
+  left: 3em;
+}
+.pizza .tab:nth-child(3) {
+  width: 3em;
+  left: 7.5em;
+}
+
+/* FAB */
+.pizza .hor,
+.pizza .ver {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: .125em;
+  animation: spin 3s ease-in-out 0s infinite;
+}
+.pizza .hor {
+  width: 1.5em;
+  height: .25em;
+}
+.pizza .ver {
+  width: .25em;
+  height: 1.5em;
+}
+
+@keyframes spin {
+  0% { transform: scale(0, 0) rotate(0deg); opacity: 0; }
+  36.6667% { transform: scale(0, 0) rotate(0deg); opacity: 0; }
+  50% { transform: scale(1, 1) rotate(720deg); opacity: 1; }
+  86.6667% { transform: scale(1, 1) rotate(720deg); opacity: 1; }
+  100% { transform: scale(0, 0) rotate(0deg); opacity: 0; }
+}

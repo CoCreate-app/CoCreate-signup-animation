@@ -1,0 +1,142 @@
+/* Bars */
+.meatballs .icon {
+  display: block;
+  position: relative;
+  margin: auto;
+  border-radius: .25rem;
+  overflow: hidden;
+  pointer-events: none;
+}
+.meatballs .icon:nth-child(1) {
+  background-color: #D60270;
+  animation: meatballs-topanimation 3s ease-in-out 0s infinite;
+}
+.meatballs .icon:nth-child(2) {
+  background-color: #9B4F96;
+  animation: meatballs-middleanimation 3s ease-in-out 0s infinite;
+  z-index: 1;
+}
+.meatballs .icon:nth-child(3) {
+  background-color: #0038A8;
+  animation: meatballs-bottomanimation 3s ease-in-out 0s infinite;
+}
+@keyframes meatballs-topanimation {
+  0% { height: 4em; width: 4em; top: 5em; left: -5em; border-radius: .25em; box-shadow: 0; }
+  36.6667% { height: 4em; width: 4em; top: 5em; left: -5em; border-radius: .25em; box-shadow: 0; }
+  50% { height: 4em; width: 11.6667em; top: 10em; left: -5.8333em; border-radius: 0 0 0 .25em; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  86.6667% { height: 4em; width: 11.6667em; top: 10em; left: -5.8333em; border-radius: 0 0 0 .25em; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  100% { height: 4em; width: 4em; top: 5em; left: -5em; border-radius: .25em; box-shadow: 0; }
+}
+@keyframes meatballs-middleanimation {
+  0% { height: 4em; width: 4em; top: 1em; border-radius: .25em; box-shadow: 0; }
+  36.6667% { height: 4em; width: 4em; top: 1em; border-radius: .25em; box-shadow: 0; }
+  50% { height: 10em; width: 23.3333em; top: -4em; border-radius: .25em .25em 0 0; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  86.6667% { height: 10em; width: 23.3333em; top: -4em; border-radius: .25em .25em 0 0; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  100% { height: 4em; width: 4em; top: 1em; border-radius: .25em; box-shadow: 0; }
+}
+@keyframes meatballs-bottomanimation {
+  0% { height: 4em; width: 4em; top: -3em; right: -5em; border-radius: .25em; box-shadow: 0; }
+  36.6667% {height: 4em; width: 4em; top: -3em; right: -5em; border-radius: .25em; box-shadow: 0; }
+  50% { height: 4em; width: 11.6667em; top: -4em; right: -5.8333em; border-radius: 0 0 .25em 0; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  86.6667% { height: 4em; width: 11.6667em; top: -4em; right: -5.8333em; border-radius: 0 0 .25em 0; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  100% { height: 4em; width: 4em; top: -3em; right: -5em; border-radius: .25em; box-shadow: 0; }
+}
+
+
+/* Traffics */
+.meatballs .traffic {
+  width: 1em;
+  height: 1em;
+  top: .5em;
+  border-radius: 50%;
+  animation: zoominout 3s ease-in-out 0s infinite;
+}
+.meatballs .traffic:nth-child(1) {
+  left: .5em;
+}
+.meatballs .traffic:nth-child(2) {
+  left: 2em;
+}
+.meatballs .traffic:nth-child(3) {
+  left: 3.5em;
+}
+
+/* Title */
+.meatballs .title {
+  width: 8em;
+  height: 1em;
+  top: .5em;
+  left: 0;
+  right: 0;
+  animation: expand 3s ease-in-out 0s infinite;
+}
+
+/* Image */
+.meatballs .image {
+  width: 4em;
+  height: 3em;
+  animation: zoominout 3s ease-in-out 0s infinite;
+}
+.meatballs .image:nth-child(5) {
+  top: 2.25rem;
+  left: 2.75rem;
+  transform-origin: left top;
+}
+.meatballs .image:nth-child(6) {
+  top: 2.25rem;
+  left: 0;
+  right: 0;
+}
+.meatballs .image:nth-child(7) {
+  top: 2.25rem;
+  right: 2.75rem;
+  transform-origin: right top;
+}
+.meatballs .image:nth-child(8) {
+  bottom: .75rem;
+  left: 2.75rem;
+  transform-origin: left bottom;
+}
+.meatballs .image:nth-child(9) {
+  bottom: .75rem;
+  left: 0;
+  right: 0;
+}
+.meatballs .image:nth-child(10) {
+  bottom: .75rem;
+  right: 2.75rem;
+  transform-origin: right bottom;
+}
+
+/* Text lines */
+.meatballs .txtline {
+  height: 1em;
+  left: 2.75em;
+  transform-origin: left center;
+  animation: expand 3s ease-in-out 0s infinite;
+}
+.meatballs .txtline:nth-child(1) {
+  width: 4em;
+  top: .6667em;
+}
+.meatballs .txtline:nth-child(2) {
+  width: 6em;
+  top: 2.3333em;
+}
+
+/* Items */
+.meatballs .item {
+  width: 3em;
+  height: 2em;
+  top: 0;
+  bottom: 0;
+  animation: expand 3s ease-in-out 0s infinite;
+}
+.meatballs .item:nth-child(1) {
+  left: 1.8889em;
+  transform-origin: left center;
+}
+.meatballs .item:nth-child(2) {
+  right: 1.8889em;
+  transform-origin: right center;
+}

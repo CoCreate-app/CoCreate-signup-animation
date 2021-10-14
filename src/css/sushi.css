@@ -1,0 +1,166 @@
+.sushi .icon {
+  display: block;
+  position: absolute;
+  width: 6.3333em;
+  height: 4em;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: .25rem;
+  overflow: hidden;
+  pointer-events: none;
+}
+.sushi .icon:nth-child(1),
+.sushi .icon:nth-child(2),
+.sushi .icon:nth-child(3) {
+  background-color: #D60270;
+  margin-top: 0;
+}
+.sushi .icon:nth-child(4),
+.sushi .icon:nth-child(5),
+.sushi .icon:nth-child(6) {
+  background-color: #9B4F96;
+  margin-top: 5em;
+}
+.sushi .icon:nth-child(7),
+.sushi .icon:nth-child(8),
+.sushi .icon:nth-child(9) {
+  background-color: #0038A8;
+  margin-top: 10em;
+}
+.sushi .icon:nth-child(3n+1) {
+  margin-left: 1em;
+}
+.sushi .icon:nth-child(3n) {
+  margin-right: 1em;
+}
+.sushi .icon:nth-child(3) {
+  animation: sushi-topanimation 3s ease-in-out 0s infinite;
+}
+.sushi .icon:nth-child(5) {
+  z-index: 1;
+  animation: sushi-middleanimation 3s ease-in-out 0s infinite;
+}
+.sushi .icon:nth-child(7) {
+  animation: sushi-sideanimation 3s ease-in-out 0s infinite;
+}
+@keyframes sushi-topanimation {
+  0% { width: 6.3333em; margin-right: 1em; border-radius: .25em; box-shadow: 0; }
+  36.6667% { width: 6.3333em; margin-right: 1em; border-radius: .25em; box-shadow: 0; }
+  50% { width: 23.3333em; margin-right: 0; border-radius: .25em .25em 0 0; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  86.6667% { width: 23.3333em; margin-right: 0; border-radius: .25em .25em 0 0; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  100% { width: 6.3333em; margin-right: 1em; border-radius: .25em; box-shadow: 0; }
+}
+@keyframes sushi-middleanimation {
+  0% { height: 4em; width: 6.3333em; margin-top: 5em; margin-left: 8.4999em; border-radius: .25em; box-shadow: 0; }
+  36.6667% { height: 4em; width: 6.3333em; margin-top: 5em; margin-left: 8.4999em; border-radius: .25em; box-shadow: 0; }
+  50% { height: 10em; width: 15.8333em; margin-top: 4em; margin-left: 7.4999em; border-radius: 0 0 .25em 0; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  86.6667% { height: 10em; width: 15.8333em; margin-top: 4em; margin-left: 7.4999em; border-radius: 0 0 .25em 0; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  100% { height: 4em; width: 6.3333em; margin-top: 5em; margin-left: 8.4999em; border-radius: .25em; box-shadow: 0; }
+}
+@keyframes sushi-sideanimation {
+  0% { width: 6.3333em; height: 4em; margin-top: 10em; margin-left: 1em; border-radius: .25em; box-shadow: 0; }
+  36.6667% { width: 6.3333em; height: 4em; margin-top: 10em; margin-left: 1em; border-radius: .25em; box-shadow: 0; }
+  50% { width: 7.4999em; height: 10em; margin-top: 4em; margin-left: 0; border-radius: 0 0 0 .25em; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  86.6667% { width: 7.4999em; height: 10em; margin-top: 4em; margin-left: 0; border-radius: 0 0 0 .25em; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  100% { width: 6.3333em; height: 4em; margin-top: 10em; margin-left: 1em; border-radius: .25em; box-shadow: 0; }
+}
+
+/* Traffics */
+.sushi .traffic {
+  width: 1em;
+  height: 1em;
+  top: 0;
+  bottom: 0;
+  border-radius: 50%;
+  transform-origin: left center;
+  animation: zoominout 3s ease-in-out 0s infinite;
+}
+
+.sushi .traffic:nth-child(1) {
+  left: .5em;
+}
+.sushi .traffic:nth-child(2) {
+  left: 2em;
+}
+.sushi .traffic:nth-child(3) {
+  left: 3.5em;
+}
+
+
+/* Tabs */
+.sushi .tab {
+  width: 4em;
+  height: 1em;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  animation: expand 3s ease-in-out 0s infinite;
+}
+.sushi .tab:nth-child(4) {
+  width: 2em;
+  left: -7em;
+}
+.sushi .tab:nth-child(6) {
+  width: 3em;
+  right: -8em;
+}
+
+/* Action button */
+.sushi .action {
+  width: 1.5em;
+  height: 1em;
+  top: 0;
+  bottom: 0;
+  right: .5em;
+  transform-origin: right center;
+  animation: zoominout 3s ease-in-out 0s infinite;
+}
+
+/* Image */
+.sushi .image {
+  width: 4em;
+  height: 3em;
+  left: 0;
+  right: 0;
+  animation: zoominout 3s ease-in-out 0s infinite;
+}
+.sushi .image:nth-child(1) {
+  top: 1em;
+}
+.sushi .image:nth-child(2) {
+  top: 5em;
+}
+
+/* Heading */
+.sushi .heading {
+  width: 12em;
+  height: 1.5em;
+  top: 1em;
+  left: 1em;
+  transform-origin: left top;
+  animation: expand 3s ease-in-out 0s infinite;
+}
+
+/* Text lines */
+.sushi .txtline {
+  height: 1em;
+  left: 2em;
+  transform-origin: left top;
+  animation: expand 3s ease-in-out 0s infinite;
+}
+.sushi .txtline:nth-child(2) {
+  width: 6em;
+  top: 3.5em;
+}
+.sushi .txtline:nth-child(3) {
+  width: 4em;
+  top: 5em;
+}
+.sushi .txtline:nth-child(4) {
+  width: 8em;
+  top: 6.5em;
+}

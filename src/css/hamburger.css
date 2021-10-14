@@ -1,0 +1,162 @@
+.hamburger .icon {
+  display: block;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  pointer-events: none;
+}
+.hamburger .icon:nth-child(1) {
+  background-color: #D60270;
+  -webkit-animation: hamburger-topanimation 3s ease-in-out 0s infinite;
+          animation: hamburger-topanimation 3s ease-in-out 0s infinite;
+}
+.hamburger .icon:nth-child(2) {
+  background-color: #9B4F96;
+  -webkit-animation: hamburger-middleanimation 3s ease-in-out 0s infinite;
+          animation: hamburger-middleanimation 3s ease-in-out 0s infinite;
+  z-index: 1;
+}
+.hamburger .icon:nth-child(3) {
+  background-color: #0038A8;
+  -webkit-animation: hamburger-bottomanimation 3s ease-in-out 0s infinite;
+          animation: hamburger-bottomanimation 3s ease-in-out 0s infinite;
+}
+@-webkit-keyframes hamburger-topanimation {
+  0% { width: 21em; height: 4em; border-radius: .25em; box-shadow: 0; }
+  36.6667% { width: 21em; height: 4em; border-radius: .25em; box-shadow: 0; }
+  50% { width: 23.3333em; height: 2em; border-radius: .25em .25em 0 0; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  86.6667% { width: 23.3333em; height: 2em; border-radius: .25em .25em 0 0; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  100% { width: 21em; height: 4em; border-radius: .25em; box-shadow: 0; }
+}
+@keyframes hamburger-topanimation {
+  0% { width: 21em; height: 4em; border-radius: .25em; box-shadow: 0; }
+  36.6667% { width: 21em; height: 4em; border-radius: .25em; box-shadow: 0; }
+  50% { width: 23.3333em; height: 2em; border-radius: .25em .25em 0 0; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  86.6667% { width: 23.3333em; height: 2em; border-radius: .25em .25em 0 0; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  100% { width: 21em; height: 4em; border-radius: .25em; box-shadow: 0; }
+}
+@-webkit-keyframes hamburger-middleanimation {
+  0% { height: 4em; width: 21em; margin-top: 1em; margin-bottom: 1em; border-radius: .25em; box-shadow: 0; }
+  36.6667% { height: 4em; width: 21em; margin-top: 1em; margin-bottom: 1em; border-radius: .25em; box-shadow: 0; }
+  50% { height: 10em; width: 23.3333em; margin-top: 0; margin-bottom: 0; border-radius: 0; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  86.6667% { height: 10em; width: 23.3333em; margin-top: 0; margin-bottom: 0; border-radius: 0; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  100% { height: 4em; width: 21em; margin-top: 1em; margin-bottom: 1em; border-radius: .25em; box-shadow: 0; }
+}
+@keyframes hamburger-middleanimation {
+  0% { height: 4em; width: 21em; margin-top: 1em; margin-bottom: 1em; border-radius: .25em; box-shadow: 0; }
+  36.6667% { height: 4em; width: 21em; margin-top: 1em; margin-bottom: 1em; border-radius: .25em; box-shadow: 0; }
+  50% { height: 10em; width: 23.3333em; margin-top: 0; margin-bottom: 0; border-radius: 0; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  86.6667% { height: 10em; width: 23.3333em; margin-top: 0; margin-bottom: 0; border-radius: 0; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  100% { height: 4em; width: 21em; margin-top: 1em; margin-bottom: 1em; border-radius: .25em; box-shadow: 0; }
+}
+@-webkit-keyframes hamburger-bottomanimation {
+  0% { width: 21em; height: 4em; border-radius: .25em; box-shadow: 0; }
+  36.6667% { width: 21em; height: 4em; border-radius: .25em; box-shadow: 0; }
+  50% { width: 23.3333em; height: 2em; border-radius: 0 0 .25em .25em; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  86.6667% { width: 23.3333em; height: 2em; border-radius: 0 0 .25em .25em; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  100% { width: 21em; height: 4em; border-radius: .25em; box-shadow: 0; }
+}
+@keyframes hamburger-bottomanimation {
+  0% { width: 21em; height: 4em; border-radius: .25em; box-shadow: 0; }
+  36.6667% { width: 21em; height: 4em; border-radius: .25em; box-shadow: 0; }
+  50% { width: 23.3333em; height: 2em; border-radius: 0 0 .25em .25em; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  86.6667% { width: 23.3333em; height: 2em; border-radius: 0 0 .25em .25em; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  100% { width: 21em; height: 4em; border-radius: .25em; box-shadow: 0; }
+}
+
+
+/* Traffics */
+.hamburger .traffic {
+  width: 1em;
+  height: 1em;
+  top: 0;
+  bottom: 0;
+  border-radius: 50%;
+  transform-origin: left center;
+  -webkit-animation: zoominout 3s ease-in-out 0s infinite;
+          animation: zoominout 3s ease-in-out 0s infinite;
+}
+.hamburger .traffic:nth-child(1) {
+  left: .5em;
+}
+.hamburger .traffic:nth-child(2) {
+  left: 2em;
+}
+.hamburger .traffic:nth-child(3) {
+  left: 3.5em;
+}
+
+/* Title */
+.hamburger .title {
+  width: 8em;
+  height: 1em;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-animation: expand 3s ease-in-out 0s infinite;
+          animation: expand 3s ease-in-out 0s infinite;
+}
+
+/* Heading */
+.hamburger .heading {
+  width: 12em;
+  height: 1.5em;
+  top: 1em;
+  left: 2em;
+  transform-origin: left top;
+  -webkit-animation: expand 3s ease-in-out 0s infinite;
+          animation: expand 3s ease-in-out 0s infinite;
+}
+
+/* Text lines */
+.hamburger .txtline {
+  height: 1em;
+  left: 4em;
+  transform-origin: left top;
+  -webkit-animation: expand 3s ease-in-out 0s infinite;
+          animation: expand 3s ease-in-out 0s infinite;
+}
+.hamburger .txtline:nth-child(2) {
+  width: 6em;
+  top: 3.5em;
+}
+.hamburger .txtline:nth-child(3) {
+  width: 4em;
+  top: 5em;
+}
+.hamburger .txtline:nth-child(4) {
+  width: 8em;
+  top: 6.5em;
+}
+
+/* Image */
+.hamburger .image {
+  width: 6em;
+  height: 4.5em;
+  top: 2em;
+  right: 2em;
+  transform-origin: right top;
+  -webkit-animation: zoominout 3s ease-in-out 0s infinite;
+          animation: zoominout 3s ease-in-out 0s infinite;
+}
+
+/* Action Buttons */
+.hamburger .action {
+  width: 1.5em;
+  height: 1em;
+  top: 0;
+  bottom: 0;
+  transform-origin: right center;
+  -webkit-animation: zoominout 3s ease-in-out 0s infinite;
+          animation: zoominout 3s ease-in-out 0s infinite;
+}
+.hamburger .action:nth-child(1) {
+  right: .5em;
+}
+.hamburger .action:nth-child(2) {
+  right: 2.5em;
+}
+.hamburger .action:nth-child(3) {
+  right: 4.5em;
+}

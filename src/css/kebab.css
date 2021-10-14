@@ -1,0 +1,155 @@
+/* Bars */
+.kebab .icon {
+  display: block;
+  position: relative;
+  margin: auto;
+  border-radius: .25rem;
+  overflow: hidden;
+  pointer-events: none;
+}
+.kebab .icon:nth-child(1) {
+  background-color: #D60270;
+  animation: kebab-topanimation 3s ease-in-out 0s infinite;
+}
+.kebab .icon:nth-child(2) {
+  background-color: #9B4F96;
+  animation: kebab-middleanimation 3s ease-in-out 0s infinite;
+  z-index: 1;
+}
+.kebab .icon:nth-child(3) {
+  background-color: #0038A8;
+  animation: kebab-bottomanimation 3s ease-in-out 0s infinite;
+}
+@keyframes kebab-topanimation {
+  0% { width: 4em; height: 4em; left: 0; border-radius: .25em; box-shadow: 0; }
+  36.6667% { width: 4em; height: 4em; left: 0; border-radius: .25em; box-shadow: 0; }
+  50% { width: 5em; height: 14em; left: -9.1667em; border-radius: .25em 0 0 .25em; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  86.6667% { width: 5em; height: 14em; left: -9.1667em; border-radius: .25em 0 0 .25em; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  100% { width: 4em; height: 4em; left: 0; border-radius: .25em; box-shadow: 0; }
+}
+@keyframes kebab-middleanimation {
+  0% { height: 4em; width: 4em; margin-top: 1em; margin-bottom: 1em; border-radius: .25em; box-shadow: 0; }
+  36.6667% { height: 4em; width: 4em; margin-top: 1em; margin-bottom: 1em; border-radius: .25em; box-shadow: 0; }
+  50% { height: 14em; width: 13.3333em; margin-top: -14em; margin-bottom: -14em; border-radius: 0; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  86.6667% { height: 14em; width: 13.3333em; margin-top: -14em; margin-bottom: -14em; border-radius: 0; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  100% { height: 4em; width: 4em; margin-top: 1em; margin-bottom: 1em; border-radius: .25em; box-shadow: 0; }
+}
+@keyframes kebab-bottomanimation {
+  0% { width: 4em; height: 4em; right: 0; border-radius: .25em; box-shadow: 0; }
+  36.6667% { width: 4em; height: 4em; right: 0; border-radius: .25em; box-shadow: 0; }
+  50% { width: 5em; height: 14em; right: -9.1667em; border-radius: 0 .25em .25em 0; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  86.6667% { width: 5em; height: 14em; right: -9.1667em; border-radius: 0 .25em .25em 0; box-shadow: 0 0 1em 0 rgba(0, 0, 0, .375); }
+  100% { width: 4em; height: 4em; right: 0; border-radius: .25em; box-shadow: 0; }
+}
+
+
+/* Traffics */
+.kebab .traffic {
+  width: 1em;
+  height: 1em;
+  top: .5em;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+  animation: zoominout 3s ease-in-out 0s infinite;
+}
+.kebab .traffic:nth-child(1) {
+  right: 3em;
+}
+.kebab .traffic:nth-child(3) {
+  left: 3em;
+}
+
+/* Image */
+.kebab .image {
+  width: 4em;
+  height: 3em;
+  left: 0;
+  right: 0;
+  animation: zoominout 3s ease-in-out 0s infinite;
+}
+.kebab .image:nth-child(4) {
+  top: 2em;
+}
+.kebab .image:nth-child(5) {
+  top: 5.75em;
+}
+.kebab .image:nth-child(6) {
+  top: 9.5em;
+}
+
+/* Title */
+.kebab .title {
+  width: 8em;
+  height: 1em;
+  top: .5em;
+  left: 0;
+  right: 0;
+  animation: expand 3s ease-in-out 0s infinite;
+}
+
+/* Items */
+.kebab .item {
+  height: 1.25em;
+  left: .5em;
+  transform-origin: left top;
+  animation: expand 3s ease-in-out 0s infinite;
+}
+.kebab .item:nth-child(2) {
+  width: 6em;
+  top: 2em;
+}
+.kebab .item:nth-child(3) {
+  width: 4em;
+  top: 3.75em;
+}
+.kebab .item:nth-child(4) {
+  width: 8em;
+  top: 5.5em;
+}
+.kebab .item:nth-child(5) {
+  width: 5em;
+  top: 7.25em;
+}
+.kebab .item:nth-child(6) {
+  width: 7em;
+  top: 9em;
+}
+.kebab .item:nth-child(7) {
+  width: 5.5em;
+  top: 10.75em;
+}
+
+/* Detail */
+.kebab .detail {
+  width: 3rem;
+  height: 4em;
+  top: 2em;
+  left: 0;
+  right: 0;
+  animation: zoominout 3s ease-in-out 0s infinite;
+}
+
+/* Text lines */
+.kebab .txtline {
+  height: 1em;
+  left: 0;
+  right: 0;
+  animation: expand 3s ease-in-out 0s infinite;
+}
+.kebab .txtline:nth-child(2) {
+  width: 2em;
+  top: 6.5em;
+}
+.kebab .txtline:nth-child(3) {
+  width: 3em;
+  top: 8em;
+}
+.kebab .txtline:nth-child(4) {
+  width: 2.5em;
+  top: 9.5em;
+}
+.kebab .txtline:nth-child(5) {
+  width: 1.5em;
+  top: 11em;
+}
