@@ -1,3 +1,5 @@
+/*globals CustomEvent*/
+import action from '@cocreate/action';
 import './css/common.css';
 import './css/hamburger.css';
 import './css/meatballs.css';
@@ -5,23 +7,31 @@ import './css/sushi.css';
 import './css/kebab.css';
 import './css/pizza.css';
 
-function init(){
 
-let animation = document.querySelector(".animation-wrapper");
-let button = document.querySelector(".startAnimation");
 
-animation.innerHTML = animationHtml;
-let hamburgerEl = document.querySelector("#hamburger");
-let meatballEl = document.querySelector("#meatballs");
-let sushiEl = document.querySelector("#sushi");
-let kebabEl = document.querySelector("#kebab");
-let pizzaEl = document.querySelector("#pizza");
+let hamburgerEl, meatballEl, sushiEl, kebabEl, pizzaEl;
 
-button.addEventListener("click", function() {
+// function init(){
+// }
+
+function startAnimation() {
+    let animation = document.querySelector(".animation-wrapper");
+
+    animation.innerHTML = animationHtml;
+    
+    hamburgerEl = document.querySelector("#hamburger");
+    meatballEl = document.querySelector("#meatballs");
+    sushiEl = document.querySelector("#sushi");
+    kebabEl = document.querySelector("#kebab");
+    pizzaEl = document.querySelector("#pizza");
+
     setHamburger();
     hamburgerEl.classList.add('hamburger');
     hamburgerEl.classList.remove('animationHide');
-});
+	document.dispatchEvent(new CustomEvent('animate', {
+		detail: {}
+	}));
+}
 
 function setHamburger() {
     setTimeout(function() { 
@@ -63,9 +73,6 @@ function setPizza() {
         // hamburgerEl.classList.add('sushi')
         hamburgerEl.classList.remove('animationHide');
     }, 3000);
-}
-
-
 }
 
 const animationHtml = `
@@ -197,6 +204,13 @@ const animationHtml = `
     </div>
 `;
 
+action.init({
+	action: "animate",
+	endEvent: "animate",
+	callback: (btn, data) => {
+		startAnimation();
+	}
+});
 
-init();
-export default {init};
+// init();
+export default {startAnimation};
