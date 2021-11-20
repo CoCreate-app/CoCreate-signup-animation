@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.2...v1.0.3) (2021-11-20)
+
+
+### Bug Fixes
+
+* update action name to animateSignup ([c3dfd9f](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/c3dfd9f7906efba91ace82641df1047b5f5273a7))
+
 ## [1.0.2](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.1...v1.0.2) (2021-11-20)
 
 
