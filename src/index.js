@@ -28,7 +28,7 @@ function startAnimation() {
     setHamburger();
     hamburgerEl.classList.add('hamburger');
     hamburgerEl.classList.remove('animationHide');
-	document.dispatchEvent(new CustomEvent('animate', {
+	document.dispatchEvent(new CustomEvent('animateSignup', {
 		detail: {}
 	}));
 }
@@ -205,8 +205,8 @@ const animationHtml = `
 `;
 
 action.init({
-	action: "animate",
-	endEvent: "animate",
+	action: "animateSignup",
+	endEvent: "animateSignup",
 	callback: (btn, data) => {
 		startAnimation();
 	}
