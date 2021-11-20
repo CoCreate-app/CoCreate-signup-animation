@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.3...v1.0.4) (2021-11-20)
+
+
+### Bug Fixes
+
+* updated script tags and link tags ([e2220a2](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/e2220a2165a4fabef428a0d3892745791456d309))
+
 ## [1.0.3](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.2...v1.0.3) (2021-11-20)
 
 
