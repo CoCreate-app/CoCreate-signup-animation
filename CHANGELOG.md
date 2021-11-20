@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.4...v1.0.5) (2021-11-20)
+
+
+### Bug Fixes
+
+* remove cdn.CoCreate.min.css ([3696a39](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/3696a39f7dcd3943be95bb6d4515181605b89bde))
+
 ## [1.0.4](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.3...v1.0.4) (2021-11-20)
 
 
