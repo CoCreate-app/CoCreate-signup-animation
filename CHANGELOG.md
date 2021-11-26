@@ -1,3 +1,11 @@
+## [1.0.8](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.7...v1.0.8) (2021-11-26)
+
+
+### Bug Fixes
+
+* add nav and sidenav to docs ([de9a7ce](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/de9a7cea50cf61bd37c37f2c8e5c75c2f7908abd))
+* updated action dependency to actions ([dddc555](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/dddc55540c6ea8cf632002d09c3a02f31b1d74f3))
+
 ## [1.0.7](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.6...v1.0.7) (2021-11-26)
 
 
