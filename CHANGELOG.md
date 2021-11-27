@@ -1,3 +1,11 @@
+## [1.0.11](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.10...v1.0.11) (2021-11-27)
+
+
+### Bug Fixes
+
+* actions import typo ([f9c9ae1](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/f9c9ae1f892c249f2fb215d06907074da23a06e0))
+* update dependencies ([36f2ac8](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/36f2ac8e69b7767bc7b62e723191cdb05b2cbb49))
+
 ## [1.0.10](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.9...v1.0.10) (2021-11-27)
 
 
