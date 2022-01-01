@@ -1,3 +1,10 @@
+## [1.0.15](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.14...v1.0.15) (2022-01-01)
+
+
+### Bug Fixes
+
+* get-value attribute value now supports a selector added # to all values currently in get-value attributes ([12fc83c](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/12fc83caa93183fa871d41eb85c52c38fcf721da))
+
 ## [1.0.14](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.13...v1.0.14) (2022-01-01)
 
 
