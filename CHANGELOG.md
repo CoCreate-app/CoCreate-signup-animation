@@ -1,3 +1,10 @@
+## [1.0.14](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.13...v1.0.14) (2022-01-01)
+
+
+### Bug Fixes
+
+* removed data- from attributes ([2d40cc9](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/2d40cc982b14288232b05cee1d0a2f3100721981))
+
 ## [1.0.13](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.12...v1.0.13) (2021-12-15)
 
 
