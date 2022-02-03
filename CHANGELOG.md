@@ -1,3 +1,10 @@
+## [1.0.17](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.16...v1.0.17) (2022-02-03)
+
+
+### Bug Fixes
+
+* replaced show and hide class hidden with attribute hidden ([4d4b1d7](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/4d4b1d757e53b6033a9904342ec1d9fb872c1398))
+
 ## [1.0.16](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.15...v1.0.16) (2022-02-01)
 
 
