@@ -205,7 +205,7 @@ const animationHtml = `
 `;
 
 action.init({
-	action: "animateSignup",
+	name: "animateSignup",
 	endEvent: "animateSignup",
 	callback: (btn, data) => {
 		startAnimation();
