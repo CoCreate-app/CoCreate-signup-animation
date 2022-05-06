@@ -1,3 +1,10 @@
+## [1.0.23](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.22...v1.0.23) (2022-05-06)
+
+
+### Bug Fixes
+
+* update config organization_Id to organization_id ([4e70f61](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/4e70f61b9b32ba74e092a32ca00d7c8581ae3a68))
+
 ## [1.0.22](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.21...v1.0.22) (2022-02-24)
 
 
