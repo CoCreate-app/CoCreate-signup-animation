@@ -1,3 +1,10 @@
+## [1.0.24](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.23...v1.0.24) (2022-05-19)
+
+
+### Bug Fixes
+
+* update document_id on link index.css ([9fa13e7](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/9fa13e73a999cf499dd771b9348ddf7a7c6f7969))
+
 ## [1.0.23](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.22...v1.0.23) (2022-05-06)
 
 
