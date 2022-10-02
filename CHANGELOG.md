@@ -1,3 +1,10 @@
+## [1.0.35](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.34...v1.0.35) (2022-10-02)
+
+
+### Bug Fixes
+
+* bump @cocreate/hosting and @cocreate/socket-client ([93efba1](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/93efba151c6d153e64c30648ef6a77a5098981a8))
+
 ## [1.0.34](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.33...v1.0.34) (2022-10-01)
 
 
