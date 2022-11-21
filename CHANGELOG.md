@@ -1,3 +1,10 @@
+## [1.0.39](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.38...v1.0.39) (2022-11-21)
+
+
+### Bug Fixes
+
+* replaced document_id with document._id ([ebc9f92](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/ebc9f92b87adf59cec2df3fed4ef7909771f53ae))
+
 ## [1.0.38](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.37...v1.0.38) (2022-11-21)
 
 
