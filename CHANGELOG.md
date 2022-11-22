@@ -1,3 +1,10 @@
+## [1.0.41](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.40...v1.0.41) (2022-11-22)
+
+
+### Bug Fixes
+
+* apply src: {{source}} to CoCreate.config ([5235a77](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/5235a7791f8c591e16de0ecc6399b5ee41c35703))
+
 ## [1.0.40](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.39...v1.0.40) (2022-11-21)
 
 
