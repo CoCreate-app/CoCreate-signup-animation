@@ -1,3 +1,10 @@
+## [1.0.43](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.42...v1.0.43) (2022-11-23)
+
+
+### Bug Fixes
+
+* bumped [@cocreate](https://github.com/cocreate) dependencies ([4b4dd53](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/4b4dd53c2ac50510149298153b8a5ccdb052ca4b))
+
 ## [1.0.42](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.41...v1.0.42) (2022-11-22)
 
 
