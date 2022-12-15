@@ -1,3 +1,10 @@
+## [1.0.59](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.58...v1.0.59) (2022-12-15)
+
+
+### Bug Fixes
+
+* add missing dev dependency style-loader ([83104e4](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/83104e40b936d0e632e997986d93fc5c6644f639))
+
 ## [1.0.58](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.57...v1.0.58) (2022-12-13)
 
 
