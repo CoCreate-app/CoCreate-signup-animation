@@ -1,3 +1,10 @@
+## [1.0.68](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.67...v1.0.68) (2022-12-30)
+
+
+### Bug Fixes
+
+* update config sources to use template  braces with entry on src ([eecd558](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/eecd55898acb736110a0834890df1c773335af86))
+
 ## [1.0.67](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.66...v1.0.67) (2022-12-29)
 
 
