@@ -1,3 +1,10 @@
+## [1.0.70](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.69...v1.0.70) (2023-01-01)
+
+
+### Bug Fixes
+
+* docs sanbox overflow ([eff33ee](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/eff33ee2bac67a8803fbe19df66321e8c68107c1))
+
 ## [1.0.69](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.68...v1.0.69) (2022-12-31)
 
 
