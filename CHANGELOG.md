@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.80...v1.1.0) (2023-03-16)
+
+
+### Features
+
+* replaced get-value and set-value with a super charged version of CoCreate-events ([1177fda](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/1177fda3a4feab5fcf22c2309d11dda0a7c654ae))
+
 ## [1.0.80](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.0.79...v1.0.80) (2023-02-01)
 
 
