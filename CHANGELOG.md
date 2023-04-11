@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.1.3...v1.1.4) (2023-04-11)
+
+
+### Bug Fixes
+
+* renamed domains to hosts ([6b383bb](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/6b383bbd23c4b90e95f4bb2d1b4fbc5b9902e711))
+
 ## [1.1.3](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.1.2...v1.1.3) (2023-03-30)
 
 
