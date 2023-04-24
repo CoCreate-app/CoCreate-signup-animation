@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.0...v1.2.1) (2023-04-24)
+
+
+### Bug Fixes
+
+* removed uglifyjs-webpack-plugin ([8a13bcb](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/8a13bcbfdbf3c547cd8becb7b9e4ff85f59ef272))
+
 # [1.2.0](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.1.6...v1.2.0) (2023-04-24)
 
 
