@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.1.6...v1.2.0) (2023-04-24)
+
+
+### Features
+
+* added pwa manifest ([f6b8513](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/f6b8513b93adc92d661c4651e72dd4c7baf013a6))
+
 ## [1.1.6](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.1.5...v1.1.6) (2023-04-11)
 
 
