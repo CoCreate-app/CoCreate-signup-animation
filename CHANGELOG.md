@@ -1,3 +1,11 @@
+## [1.2.3](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.2...v1.2.3) (2023-04-24)
+
+
+### Bug Fixes
+
+* updated worrkflows to v3 and node version 16 ([492cd9e](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/492cd9e96e3e4ee0f6fd77db5ffe2dcc9b4f031c))
+* workflow node version updated  16 ([7c09472](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/7c0947200a4495de175bb7e31f2120c0bcd46681))
+
 ## [1.2.2](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.1...v1.2.2) (2023-04-24)
 
 
