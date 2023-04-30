@@ -1,3 +1,12 @@
+## [1.2.4](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.3...v1.2.4) (2023-04-30)
+
+
+### Bug Fixes
+
+* fullscreen target updated to fullscreen fullscreen-target ([d861e18](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/d861e18b1d4c67763f5efaa1063b8d700528091a))
+* package-lock.json and pnpm-lock.yaml added to .gitignore ([fbd7e43](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/fbd7e4314ae8e9928f7160f931a776d317aba41f))
+* removed toogle fullscreen icons. now using css content ([8fcfbb6](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/8fcfbb650ed24e89f9457878005231d425d956ae))
+
 ## [1.2.3](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.2...v1.2.3) (2023-04-24)
 
 
