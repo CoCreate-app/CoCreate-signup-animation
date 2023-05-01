@@ -1,3 +1,10 @@
+## [1.2.6](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.5...v1.2.6) (2023-05-01)
+
+
+### Bug Fixes
+
+* update manifest.json to manifest.webmanifest ([4137efd](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/4137efde99034ebfdcb4d7fba477da11bfb87443))
+
 ## [1.2.5](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.4...v1.2.5) (2023-05-01)
 
 
