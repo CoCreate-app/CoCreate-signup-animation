@@ -1,3 +1,10 @@
+## [1.2.5](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.4...v1.2.5) (2023-05-01)
+
+
+### Bug Fixes
+
+* replace fontawesome with svg ([d291375](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/d291375c27c072dd83a146ddd6d01a75edf5ef34))
+
 ## [1.2.4](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.3...v1.2.4) (2023-04-30)
 
 
