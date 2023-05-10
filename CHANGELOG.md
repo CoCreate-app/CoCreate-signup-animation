@@ -1,3 +1,10 @@
+## [1.2.8](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.7...v1.2.8) (2023-05-10)
+
+
+### Bug Fixes
+
+* apikey renamed to key ([d45fb36](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/d45fb36f524ca96c93f491863c3f3f93a8a9b086))
+
 ## [1.2.7](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.6...v1.2.7) (2023-05-06)
 
 
