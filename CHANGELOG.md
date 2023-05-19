@@ -1,3 +1,10 @@
+## [1.2.9](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.8...v1.2.9) (2023-05-19)
+
+
+### Bug Fixes
+
+* update packages to latest version. This commit updates various packages in the dependencies section of the package.json file to their latest published versions, thereby fixing multiple bugs and improving overall performance. ([9d93376](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/9d9337630e663ec11383fc361443cab52d756ea7))
+
 ## [1.2.8](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.7...v1.2.8) (2023-05-10)
 
 
