@@ -1,3 +1,10 @@
+## [1.2.11](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.10...v1.2.11) (2023-06-02)
+
+
+### Bug Fixes
+
+* format demo html ([ffceed6](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/ffceed6bd82da9a429f1d26a064a6b88b703dbd8))
+
 ## [1.2.10](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.9...v1.2.10) (2023-05-21)
 
 
