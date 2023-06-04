@@ -1,3 +1,10 @@
+## [1.2.12](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.11...v1.2.12) (2023-06-04)
+
+
+### Bug Fixes
+
+* **semantic-release:** worklow error solved by running node version 14 ([13731f8](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/13731f8ab5556ac89271621a6e659b70749970da))
+
 ## [1.2.11](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.10...v1.2.11) (2023-06-02)
 
 
