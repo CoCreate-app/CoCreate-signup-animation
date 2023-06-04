@@ -1,3 +1,11 @@
+## [1.2.13](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.12...v1.2.13) (2023-06-04)
+
+
+### Bug Fixes
+
+* replaced secert GITHUB_TOKEN with GITHUB ([e444a2f](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/e444a2f113dd80734d5739f8c833e608cc0d8309))
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([301edd3](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/301edd393f46a9859681be1b84e708863d12404c))
+
 ## [1.2.12](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.11...v1.2.12) (2023-06-04)
 
 
