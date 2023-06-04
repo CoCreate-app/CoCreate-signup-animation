@@ -1,3 +1,10 @@
+## [1.2.14](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.13...v1.2.14) (2023-06-04)
+
+
+### Bug Fixes
+
+* Refactor CoCreate.config.js to remove hard-coded credentials ([4e69602](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/4e69602b6cf302ee1e5b70eef3942cdede1b5941))
+
 ## [1.2.13](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.12...v1.2.13) (2023-06-04)
 
 
