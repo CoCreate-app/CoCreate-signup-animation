@@ -1,3 +1,10 @@
+## [1.2.19](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.18...v1.2.19) (2023-06-11)
+
+
+### Bug Fixes
+
+* @cocreate/cli moved to dependencies ([c2bcd88](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/c2bcd88654cb5df80e5287120fc091528ce386ed))
+
 ## [1.2.18](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.17...v1.2.18) (2023-06-11)
 
 
