@@ -1,3 +1,10 @@
+## [1.2.20](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.19...v1.2.20) (2023-06-11)
+
+
+### Bug Fixes
+
+* postintall error ([19976c4](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/19976c4c16d5be2207241795c231ea6f9fe8cabf))
+
 ## [1.2.19](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.18...v1.2.19) (2023-06-11)
 
 
