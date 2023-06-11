@@ -1,3 +1,10 @@
+## [1.2.17](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.16...v1.2.17) (2023-06-11)
+
+
+### Bug Fixes
+
+* renamed hosts to host. the value can be a string or an array of strings ([6dab89c](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/6dab89c2ff4296da009ef1263e968a5612112d1e))
+
 ## [1.2.16](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.15...v1.2.16) (2023-06-10)
 
 
