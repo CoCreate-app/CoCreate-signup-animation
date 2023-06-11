@@ -1,3 +1,10 @@
+## [1.2.22](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.21...v1.2.22) (2023-06-11)
+
+
+### Bug Fixes
+
+* testing workflow ([e3b4dc1](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/e3b4dc1bbbed10305ff4d3a861e27daf3238ec47))
+
 ## [1.2.21](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.20...v1.2.21) (2023-06-11)
 
 
