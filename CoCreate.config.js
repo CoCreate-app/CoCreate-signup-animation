@@ -4,8 +4,8 @@ module.exports = {
     "host": "",
     "sources": [
         {
-            "collection": "files",
-            "document": {
+            "array": "files",
+            "object": {
                 "_id": "637ca66650234ef1671ce333",
                 "name": "index.html",
                 "path": "/docs/signup-animation/index.html",
