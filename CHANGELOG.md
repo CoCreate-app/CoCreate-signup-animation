@@ -1,3 +1,18 @@
+# [1.3.0](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.28...v1.3.0) (2023-08-16)
+
+
+### Bug Fixes
+
+* crud attributes renamed ([f9101e4](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/f9101e4787b8c032dabb2dc62a352523e9296c66))
+* replace -target -selector ([738c407](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/738c4074358e15021979d044132ff21a603fd56b))
+* updated actions callback data object ([8ca4c1d](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/8ca4c1d258345426ca75b412f07b4b6161d255a0))
+* webpack.config and package.json make use of mode=production instead of process.env ([ebeac1f](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/ebeac1f3bfa9bdd1cc919d45f811cf53f044bbb0))
+
+
+### Features
+
+* name attribute and variable renamed to key ([f321337](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/f3213378bcd507804db7392029afc0e071b4e242))
+
 ## [1.2.28](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.2.27...v1.2.28) (2023-06-14)
 
 
