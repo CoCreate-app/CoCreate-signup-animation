@@ -1,3 +1,17 @@
+# [1.5.0](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.4.0...v1.5.0) (2023-08-21)
+
+
+### Bug Fixes
+
+* /dist/CoCreate.js updated to https://CoCreate.app/dist/CoCreate.js ([bf2213a](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/bf2213a31b10448cc3847e6b81f49638b6334f25))
+* replace cdn with /dist ([146ec12](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/146ec120b2bb9eced8e406d1d5f61fb25db503eb))
+* update file uploader ([edf9069](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/edf9069d1d8de108b22fb6b7cf9c9ff42e629429))
+
+
+### Features
+
+* Update cocreate dependencies for the latest features and bug fixes ([5a521e2](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/5a521e235aa05f8c2ada085aca1361c0c0239a68))
+
 # [1.4.0](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.3.0...v1.4.0) (2023-08-17)
 
 
