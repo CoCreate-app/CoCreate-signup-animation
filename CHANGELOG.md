@@ -1,3 +1,11 @@
+## [1.5.2](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.5.1...v1.5.2) (2023-09-18)
+
+
+### Bug Fixes
+
+*  Add path and pathname ([71883a2](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/71883a23884e804703f7b496be989836aabe1145))
+* Update CoCreate depndencies to latest versions ([c2b7d67](https://github.com/CoCreate-app/CoCreate-signup-animation/commit/c2b7d6779704785f83ee8e333fec5044adfd0487))
+
 ## [1.5.1](https://github.com/CoCreate-app/CoCreate-signup-animation/compare/v1.5.0...v1.5.1) (2023-08-21)
 
 
